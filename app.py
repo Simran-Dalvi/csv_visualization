@@ -1,6 +1,5 @@
-import os
-from dotenv import load_dotenv
+import pandas as pd
 
-load_dotenv()
+df = pd.read_csv("data\\titanic.csv")
 
-print ("API key loaded :", os.getenv("OPENAI_API_KEY") is not None)
+print(df.head())
