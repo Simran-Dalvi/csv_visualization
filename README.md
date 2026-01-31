@@ -6,7 +6,7 @@ Frontend: Streamlit
 Charts: Plotly
 Logic: LLM → JSON plan → Python execution
 
-
+```bash
 csv-visualization/
 │
 ├── data/
@@ -18,6 +18,7 @@ csv-visualization/
 ├── .env                # OpenAI key
 ├── requirements.txt
 └── README.md
+```
 
 
 We’ll code in this order:
